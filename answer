@@ -1,1 +1,27 @@
-
+#ans1
+a1='*+'#奇數句字元
+a2='+*'#偶數句字元
+ans1=a1*10#奇數句組成
+ans2=a2*10#偶數句組成
+for i in range (5) :#重複五次
+    print(ans1)
+    print(ans2)
+#ans2
+a=int(input())#用來表示報名的隊伍數量
+c=0#讓c初始值為零
+for i in range (a):#有幾組就重複幾次
+    b=int(input())#輸入隊伍人數
+    if b != 0:#人數不得為零
+        if b %3 ==0:#判斷人數是否為3的倍數
+            c+=1#若為3的倍數就加一
+print(c)#輸出隊伍數
+#ans3
+#自我介紹
+##我是陳家森
+##關於我
+-我正在學習python與markdown文法
+-我正在考期中考
+-我不想被當
+-電子郵件[11231086@stu.tshs.tp.edu.tw](mailto:11231086@stu.tshs.tp.edu.tw)
+-GITHUB:[Jong-un-Kim](https://github.com/Jong-un-Kim)
+#ans4
