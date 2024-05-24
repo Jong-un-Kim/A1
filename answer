@@ -33,9 +33,9 @@ import random#導入random模組
 ans=random.randint(0,100)#在上下限中隨機取數字
 while True:
     if c == n:
-        print('已經猜了十次仍未猜對請重新再來')
-        break#猜10次仍未猜到目標
-    b =int(input())#停止
+        print('已經猜了十次仍未猜對請重新再來')#猜10次仍未猜到目標
+        break#停止
+    b =int(input())
     if b == ans :
         print('猜對目標數字')#猜對
         break#停止
