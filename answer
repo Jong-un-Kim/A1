@@ -25,3 +25,23 @@ print(c)#輸出隊伍數
 -電子郵件[11231086@stu.tshs.tp.edu.tw](mailto:11231086@stu.tshs.tp.edu.tw)
 -GITHUB:[Jong-un-Kim](https://github.com/Jong-un-Kim)
 #ans4
+x1=0#下限值
+x2=100#上限值
+n=10#極限猜測次數
+c=0#初始化C
+import random#導入random模組
+ans=random.randint(0,100)#在上下限中隨機取數字
+while True:
+    if c == n:
+        print('已經猜了十次仍未猜對請重新再來')
+        break#猜10次仍未猜到目標
+    b =int(input())#停止
+    if b == ans :
+        print('猜對目標數字')#猜對
+        break#停止
+    elif b > ans :
+        print('太高了')#使用者輸入的數字高於目標
+        c+=1
+    elif b < ans :
+        print('太低了')#使用者輸入的數字低於目標
+        c+=1
